@@ -1,0 +1,70 @@
+
+
+body, a{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+
+    /* new added */
+
+    /*!                  centering the bg-img                    */
+    background: url(/imgs/türkismetallbackground.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ), url(/imgs/türkismetallbackground.jpg);
+}
+
+
+/* adding a hovereffect */
+
+a:hover{
+    color: #F34423;
+}
+
+
+/*!                  styles for burgermenu                  */
+
+.burger{
+    cursor: pointer;
+    display: none;
+    width: 100%;
+    
+/* padding: 50px 0;
+*/  text-align: center;
+    /* background-color: lightblue; */
+    margin-top: 20px;
+} /* seems the problem with the ugly menu is not there anymore */
+    /* make only the  */
+
+#hiddenMenu {
+    display: none; /* this is that on pageload the menu isnst shown */
+    position: absolute;< /* this is for making the burger not "jump */
+    /* list-style-type: none; */ /* seems this does nothing */
+    
+    
+}
+
+
+
+
+
+
+
+
+/* to dos 
+    abstand des untersten elemtns zum bildschirm rand
+    positionierung des bildes
+
+    markierung der links als links
+
+    h1 und h2 benutzen
+*/

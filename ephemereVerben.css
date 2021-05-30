@@ -1,0 +1,11 @@
+.verben{
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}

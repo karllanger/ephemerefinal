@@ -1,0 +1,9 @@
+/* !                    this is for the dropdown to not interfere with some of the menu points                   */
+@media screen and (max-width: 1300px) {
+    .sehen{
+        grid-row: 4;
+    }
+}
+.festival{
+    font-size: 50px;
+}
