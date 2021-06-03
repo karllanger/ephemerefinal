@@ -7,7 +7,7 @@ button.addEventListener("click", showMenu);
 function showMenu(){
 
     console.log("läuft")
-    if(hiddenMenu.style.display === "none") {
+    if(!hiddenMenu.style.display  || hiddenMenu.style.display === "none") {
         hiddenMenu.style.display = "block";
     }
     else {

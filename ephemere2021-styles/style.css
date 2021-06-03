@@ -9,7 +9,7 @@ body, a{
     /* new added */
 
     /*!                  centering the bg-img                    */
-    background: url(/imgs/türkismetallbackground.jpg);
+    background: url(/imgs/backgroundCompressed.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,7 @@ body, a{
         linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ), url(/imgs/türkismetallbackground.jpg);
+        ), url(/imgs/backgroundCompressed.jpg);
 }
 
 
@@ -53,18 +53,34 @@ a:hover{
     
 }
 
+.show{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    a:hover{
+    color: #F34423;
+}
+}
+.show > :first-child{
+    padding-top: 15px;
+}
+.show > a:hover{
+    color: #F34423;
+}
 
 
+.nav{
+    position: fixed;
+    top: 30px;
+    left: 45px;
+}
 
 
+.nav > a {
+    text-align: start;
+    
+}
 
-
-
-/* to dos 
-    abstand des untersten elemtns zum bildschirm rand
-    positionierung des bildes
-
-    markierung der links als links
-
-    h1 und h2 benutzen
-*/
+.show > a {
+    padding-top: 20px;
+}

@@ -13,7 +13,7 @@ body, a{
     /* new added */
 
     /*!                  centering the bg-img                    */
-    background: url(/imgs/türkismetallbackground.jpg);
+    background: url(/imgs/backgroundCompressed.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,7 +24,7 @@ body, a{
         linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ), url(/imgs/türkismetallbackground.jpg);
+        ), url(/imgs/backgroundCompressed.jpg);
 }
 
 
@@ -42,7 +42,7 @@ body{
     align-items: center;
 }
 .landing >p {
-    font-size: 30px;
+    font-size: 70px;
     text-align: center;
     position: relative;
     top: -12%;
@@ -87,5 +87,22 @@ body{
     position: absolute; /* this is for making the burger not "jump */
     /* list-style-type: none; */ /* seems this does nothing */
     
-    
+}
+
+/* #hiddenMenu > div > a {
+    display: inline;
+} */
+
+.show{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.show > :first-child{
+    padding-top: 15px;
+}
+
+.show > a:hover{
+    color: #F34423;
 }

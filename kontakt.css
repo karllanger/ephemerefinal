@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+main > p {
+    text-align: center;
+}
