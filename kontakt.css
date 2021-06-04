@@ -1,3 +1,30 @@
+.item {
+    flex-grow: 1;
+    height: 100px;
+    width: 100px; /* A fixed width as the default */
+  }
+  
+  .content { 
+    flex-grow: 2; /* Set the middle element to grow and stretch */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    height: 40vh;
+    
+  }
+  
+  .item + .item { 
+    margin-left: 2%; 
+  }
+
+.content > p, h1 {
+    text-align: center;
+
+}
+
 main {
     display: flex;
     height: 100vh;
@@ -8,4 +35,11 @@ main {
 
 main > p {
     text-align: center;
+}
+
+
+@media screen and (max-width: 530px) {
+  main {
+    font-size: 25px;
+  }
 }

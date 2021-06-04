@@ -18,8 +18,8 @@ body, a{
     background-repeat: no-repeat;
     background: 
         linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
         ), url(/imgs/backgroundCompressed.jpg);
 }
 
@@ -47,19 +47,18 @@ a:hover{
 
 #hiddenMenu {
     display: none; /* this is that on pageload the menu isnst shown */
-    position: absolute;< /* this is for making the burger not "jump */
+    position: absolute;/* this is for making the burger not "jump */
     /* list-style-type: none; */ /* seems this does nothing */
     
     
 }
 
 .show{
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    a:hover{
-    color: #F34423;
-}
+    white-space: nowrap
 }
 .show > :first-child{
     padding-top: 15px;
