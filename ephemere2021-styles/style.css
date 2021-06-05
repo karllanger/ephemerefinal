@@ -1,6 +1,6 @@
 
 
-body, a{
+body{
     margin: 0;
     padding: 0;
     color: white;
@@ -21,6 +21,12 @@ body, a{
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)
         ), url(/imgs/backgroundCompressed.jpg);
+}
+a{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -58,7 +64,8 @@ a:hover{
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    white-space: nowrap
+    white-space: nowrap;
+    z-index: 2;
 }
 .show > :first-child{
     padding-top: 15px;
